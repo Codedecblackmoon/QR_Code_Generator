@@ -8,65 +8,24 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | QR code component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    body{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
-      color: hsl(228, 44%, 32%);
-      background-color: rgb(219, 237, 252);
-      font-family: "Outfit", sans-serif;
-      font-optical-sizing: auto;
-      font-weight:  400, 700;
-      font-style: normal;
-    }
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-    .container {
-      max-width: 200px;
-      padding:8px;
-      background-color: white;
-      border-radius: 15px;
-      box-shadow: 0 4px 15px rgba(95, 95, 95, 0.349);
-    }
-    img{
-      height: 200px;
-      border-radius: 5px;
-    }
-    h4{
-      text-align: center;
-    }
-    p{
-      font-size: 12px;
-      text-align: center;
-    }
-
-    @media (min-width: 376px) and (max-width: 1440px) {
-      .container {
-          padding: 9px; 
-      }
-  
-      h1 {
-          font-size: 2rem; 
-      }
-  }
-  </style>
 </head>
 <body>
-
-  <div class="container">
-      <img src="./images/image-qr-code.png" alt="">
-      <h4>Improve your front-end skills by building projects</h4>
-      <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
-      <!-- <div class="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-        Coded by <a href="#">Gideon Lenge</a>.
-      </div> -->
+  <div class="wrapper">
+      <header>
+        <h1>QR Generator</h1>
+        <p>enter text</p>
+      </header>
+      <div class="form">
+          <input type="text" placeholder="Enter URL">
+          <button>Generator QR code</button>
+      </div>
+      <div class="qr-code">
+        <img src="" alt="">
+      </div>
   </div>
+  <script src="script.js"></script>
 </body>
 </html>
