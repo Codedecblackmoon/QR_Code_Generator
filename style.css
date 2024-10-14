@@ -1,7 +1,7 @@
 body{
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     height: 100vh;
     margin: 0;
     color: hsl(228, 44%, 32%);
@@ -81,6 +81,16 @@ body{
     opacity: 1;
     pointer-events: auto;
     transition: opacity 0.s5 0.05s ease;
+  }
+
+  header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header .logo{
+    
   }
 
   @media (min-width: 376px) and (max-width: 1440px) {

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | QR code component</title>
+
+</head>
+<body>
+  <div class="wrapper">
+      <header>
+        <h1>QR Generator</h1>
+        <p>enter text</p>
+      </header>
+      <div class="form">
+          <input type="text" placeholder="Enter URL">
+          <div class="color">
+            <label for="favcolor">Select your favorite color:</label>
+            <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+          </div>
+          
+          <button>Generator QR code</button>
+      </div>
+      <div class="qr-code">
+        <img src="" alt="">
+      </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
