@@ -6,6 +6,10 @@ body{
     font-optical-sizing: auto;
     font-weight:  400, 700;
     font-style: normal;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
 }
 
 header{
@@ -22,15 +26,34 @@ nav a{
     color:hsl(228, 44%, 32%);
 }
 
+.newcontainer{
+    background-color: #f8f8f8;
+    max-width: 60%;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 100px;
+    box-shadow: 0 4px 15px rgba(95, 95, 95, 0.349);
+}
+
 #content{
     display: flex;
     justify-content: center;
-    gap: 10px;
-    max-width: 800px;
-    margin: 30px;
-    /* border: 1px solid #999; */
-    padding: 8px;
+    align-items: center;
+}
+#but{
+    background-color: #00c3ff;
+
+}
+button{
+    padding: 10px;
     border-radius: 5px;
+    border: none;
+}
+
+button a{
+    text-decoration: none;
+    color: black;
+    font-weight: 20px;
 }
 
 img{

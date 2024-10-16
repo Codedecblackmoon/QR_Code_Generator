@@ -13,18 +13,21 @@
 
 </head>
 <body>
+  <header>
+      <h1 id="logo">Welcome to My Website</h1>
+      <nav>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="./QR-Generator.html">Get Started</a>
+      </nav>
+  </header>
   <div class="wrapper">
-      <header>
+      <div id="enter">
         <h1>QR Generator</h1>
         <p>enter text</p>
-      </header>
+      </div>
       <div class="form">
           <input type="text" placeholder="Enter URL">
-          <div class="color">
-            <label for="favcolor">Select your favorite color:</label>
-            <input type="color" id="favcolor" name="favcolor" value="#ff0000">
-          </div>
-          
           <button>Generator QR code</button>
       </div>
       <div class="qr-code">
