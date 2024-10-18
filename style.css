@@ -14,13 +14,12 @@ body{
 
 .wrapper{
   max-width: 410px;
-/*     LLLL */
-  height: 345px;
+  height: 245px;
   padding:18px;
   margin-top: 100px;
   background-color: white;
   border-radius: 15px;
-  box-shadow: 0 4px 15px rgba(95, 95, 95, 0.349);
+  box-shadow: 0 4px 15px rgba(247, 66, 66, 0.349);
   transition: height 0.2s ease;
 }
 
@@ -28,7 +27,7 @@ body{
   height: 530px;
 }
 
-#header h1{
+#enter h1{
   font-size: 21px;
   font-weight: 500;
 }
@@ -40,7 +39,7 @@ header{
   flex-direction: column;
   align-items: center;
 }    
-#header p{
+#enter p{
   font-size: 16px;
 }
 
