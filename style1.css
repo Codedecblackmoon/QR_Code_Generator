@@ -1,7 +1,7 @@
 body{
     margin: 0;
     color: hsl(228, 44%, 32%);
-    background-color: rgb(219, 237, 252);
+    background-color: rgb(228, 228, 228);
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
     font-weight:  400, 700;
@@ -82,34 +82,50 @@ nav a{
 
 .newcontainer{
     margin-left: 110px;
-    background-color: #f8f8f8;
+    /* background-color: #f8f8f8; */
     max-width: 60%;
     padding: 20px;
     border-radius: 10px;
     margin-top: 80px;
-    box-shadow: 0 4px 15px rgba(95, 95, 95, 0.349);
+    border-radius: 21px;
+    border-radius: 21px;
+    background: #e0e0e0;
+    box-shadow:  14px 14px 28px #a4a4a4,
+             -14px -14px 28px #ffffff;
+    /* box-shadow: 0 4px 15px rgba(95, 95, 95, 0.349); */
 }
 
 .newcontainerA{
     margin-left: 30px;
-    /* background-color: #f8f8f8; */
     max-width: 80%;
-    padding: 20px;
+    padding: 30px;
     border-radius: 10px;
     margin-top: 70px;
-    box-shadow: 0 4px 15px rgba(95, 95, 95, 0.349);
+    border-radius: 21px;
+    background: #e0e0e0;
+    box-shadow: inset 11px 11px 22px #8b8b8b,inset -11px -11px 22px #ffffff;
 }
 
 #content{
     display: flex;
     justify-content: center;
-    /* flex-direction: row; */
     align-items: center;
 }
 #but{
-    background-color: #00c3ff;
+    border-radius: 21px;
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow:  5px 5px 10px #8b8b8b,
+                -5px -5px 10px #ffffff;
 
 }
+
+button :hover{
+    border-radius: 21px;
+    background: linear-gradient(145deg, #dadada, #a2a2a2);
+    box-shadow:  5px 5px 10px #8b8b8b,
+                -5px -5px 10px #ffffff;
+}
+
 button{
     padding: 10px;
     border-radius: 5px;
@@ -118,7 +134,7 @@ button{
 
 button a{
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: inherit;
     font-weight: 20px;
 }
 

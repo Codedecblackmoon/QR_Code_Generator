@@ -1,7 +1,7 @@
 body{
     margin: 0;
     color: hsl(228, 44%, 32%);
-    background-color: rgb(219, 237, 252);
+    background-color: rgb(228, 228, 228);
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
     font-weight:  400, 700;
@@ -22,9 +22,10 @@ html, body {
   height: 200px;
   padding:18px;
   margin-top: 70px;
-  background-color: white;
   border-radius: 15px;
-  box-shadow: 0 4px 15px rgba(106, 106, 106, 0.349);
+  border-radius: 21px;
+  background: linear-gradient(145deg, #f0f0f0, #cacaca);
+  box-shadow:  14px 14px 28px #8b8b8b,-14px -14px 28px #ffffff;
   transition: height 0.2s ease;
 }
 
@@ -128,13 +129,17 @@ img{
   width: 90%;
   font-size: 18px;
   padding: 0 17px;
-  border: 1px solid #999;
+  background-color: #f0f0f0, #cacaca;
+  border: 1px solid #ffffff;
 }
 .form button{
   width: 99%;
   font-size: 17px;
-  color: #ffffff;
-  background: #3498D8;
+  color: inherit;
+  border-radius: 21px;
+  border-radius: 21px;
+  background: #e0e0e0;
+  box-shadow: inset 5px 5px 10px #8b8b8b,inset -5px -5px 10px #ffffff;
   margin-top: 20px;
   cursor: pointer;
 }
@@ -143,11 +148,13 @@ img{
   width: 50%;
   font-size: 17px;
   border-radius: 5px;
-  color: #3498D8;
-  background: #ffffff;
+  color: inherit;
+  border-radius: 21px;
+  background: #e0e0e0;
+  box-shadow:  5px 5px 10px #8b8b8b,-5px -5px 10px #ffffff;
   margin-top: 20px;
   cursor: pointer;
-  border: 1px solid #3498D8;
+  border: none;
   padding: 10px;
 }
 nav a{
@@ -158,7 +165,10 @@ nav a{
 
 .wrapper .qr-code{
   padding: 33px 0;
-  border: 1px solid #999;
+  border-radius: 21px;
+  border-radius: 21px;
+  background: #e0e0e0;
+  box-shadow: inset 5px 5px 10px #8b8b8b,inset -5px -5px 10px #ffffff;
   display: flex;
   opacity: 0;
   pointer-events: none;
