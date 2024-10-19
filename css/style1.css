@@ -76,17 +76,14 @@ nav a{
 
 .newcontainer{
     margin-left: 110px;
-    /* background-color: #f8f8f8; */
     max-width: 60%;
-    padding: 20px;
+    padding: 30px;
     border-radius: 10px;
     margin-top: 80px;
     border-radius: 21px;
     border-radius: 21px;
     background: #e0e0e0;
-    box-shadow:  14px 14px 28px #a4a4a4,
-             -14px -14px 28px #ffffff;
-    /* box-shadow: 0 4px 15px rgba(95, 95, 95, 0.349); */
+    box-shadow:  14px 14px 28px #a4a4a4,-14px -14px 28px #ffffff;
 }
 
 .newcontainerA{
