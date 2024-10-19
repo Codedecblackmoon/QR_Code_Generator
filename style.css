@@ -87,6 +87,11 @@ footer #media{
   align-items: center;
 }
 
+#otherimg{
+  padding: 40px;
+  margin-left: 16%;
+}
+
 #enter h1{
   font-size: 21px;
   font-weight: 500;
