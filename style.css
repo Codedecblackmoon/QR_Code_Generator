@@ -19,12 +19,12 @@ html, body {
 
 .wrapper{
   max-width: 410px;
-  height: 245px;
+  height: 200px;
   padding:18px;
   margin-top: 70px;
   background-color: white;
   border-radius: 15px;
-  box-shadow: 0 4px 15px rgba(247, 66, 66, 0.349);
+  box-shadow: 0 4px 15px rgba(106, 106, 106, 0.349);
   transition: height 0.2s ease;
 }
 
