@@ -40,14 +40,8 @@ footer #content{
 }
 
 footer #content #email{
-    margin: 10px;
+    margin: 1px;
     padding: 0px;
-}
-
-footer #content #tel{
-    margin: 10px;
-    padding: 0px;
-    color: #181818;
 }
 
 footer #media{

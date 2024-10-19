@@ -28,7 +28,7 @@ function fatchFile(url){
         let tempURL = URL.createObjectURL(file);
         let atag = document.createElement("a");
         atag.href = tempURL;
-        atag.download = url.replace(/^.*[\\\/]/, '');
+        atag.download = "URL";
         document.body.appendChild(atag)
         atag.click();
         atag.remove();
