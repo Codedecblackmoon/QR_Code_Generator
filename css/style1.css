@@ -10,6 +10,7 @@ body{
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
+    height: 100vh;
 }
 
 html, body {
@@ -75,9 +76,6 @@ nav a{
 }
 
 .newcontainer{
-    margin-left: 110px;
-    max-width: 70%;
-    padding: 30px;
     border-radius: 10px;
     margin-top: 80px;
     border-radius: 21px;
@@ -101,20 +99,19 @@ nav a{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
+
 #but{
     border-radius: 21px;
     background: linear-gradient(145deg, #f0f0f0, #cacaca);
-    box-shadow:  5px 5px 10px #8b8b8b,
-                -5px -5px 10px #ffffff;
-
+    box-shadow:  5px 5px 10px #8b8b8b,-5px -5px 10px #ffffff;
 }
 
 button :hover{
     border-radius: 21px;
     background: linear-gradient(145deg, #dadada, #a2a2a2);
-    box-shadow:  5px 5px 10px #8b8b8b,
-                -5px -5px 10px #ffffff;
+    box-shadow:  5px 5px 10px #8b8b8b,-5px -5px 10px #ffffff;
 }
 
 button{
@@ -136,48 +133,25 @@ img{
 
 @media (min-width: 376px) and (max-width: 1440px) {
     .container {
-        padding: 9px; 
-    }
-    .wrapper{
-      margin: 20px;
-      max-height: 380;
-    }
-  
-    h1 {
-        font-size: 2rem; 
-    }
-  }
-
-@media (min-width: 1800px) {
-    .newcontainer{
-        margin-left: 16%;
-    }
-    .newcontainerA{
-        margin-left: 16%;
-    }
-}
-
-@media (min-width: 376px) {
-    .newcontainer{
-        margin-left: 9%;
         display: flex;
-        padding: 30px;
         justify-content: center;
         flex-direction: column;
         align-items: center;
     }
-    .newcontainerA{
-        margin-left: 4%;
-    }
-    #content{
-        flex-direction: column;
+    
+   .newcontainer{
+    margin-left: 9%;
+    margin-right: 9%;
+    padding: 30px;
     }
 
-    header {
-        header{
-            margin: 10px;
-            flex-direction: column;
-            align-items: center;
-        }
+    .newcontainerA{
+        margin-left: 9%;
+        margin-right: 9%;
+        padding: 30px;
     }
-}
+
+    h1 {
+        font-size: 2rem; 
+    }
+  }

@@ -29,6 +29,7 @@ html, body {
   transition: height 0.2s ease;
 }
 
+
 .wrapper.active{
   height: 600px;
 }
@@ -59,7 +60,6 @@ footer #content #email{
   margin: 1px;
   padding: 0px;
 }
-
 
 footer #media{
   display: flex;
